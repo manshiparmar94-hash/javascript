@@ -11,30 +11,30 @@
 //cocat()
 //split()
 
-let str="hello javaScript world !"
-console.log(str)
-console.log(" length():",str.length)
+// let str="hello javaScript world !"
+// console.log(str)
+// console.log(" length():",str.length)
 
-let trimText = str.trim();
-console.log("trim() :",trimText.length)
+// let trimText = str.trim();
+// console.log("trim() :",trimText.length)
 
-console.log("toUppercase() :",str.toUpperCase())
-console.log("tolowercas():", str.toLowerCase())
+// console.log("toUppercase() :",str.toUpperCase())
+// console.log("tolowercas():", str.toLowerCase())
 
-console.log("includes():", str.includes("test"))
+// console.log("includes():", str.includes("test"))
 
-console.log ("indexOf():",str.lengtOf("javaScript"))
+// console.log ("indexOf():",str.lengtOf("javaScript"))
 
-console.log("slice():",str.slice(1,7))
+// console.log("slice():",str.slice(1,7))
 
-console.log("substring():",str.substring(2,7))
+// console.log("substring():",str.substring(2,7))
 
-console.log("replace():",str.replace("world,35"))
+// console.log("replace():",str.replace("world,35"))
 
-let extraRext ="-HELLO JS";
-console.log("concat :", str.concat(extraRext))
+// let extraRext ="-HELLO JS";
+// console.log("concat :", str.concat(extraRext))
 
-console.log("Split:",str.split(""));
+// console.log("Split:",str.split(""));
 
 
 //array methods()
@@ -112,3 +112,10 @@ let nestedArray=[1,2[3,4],[5,6]]
 console.log("default nested array:",nestedArray)
 let flstArray =nestedArray.flat()
 console.log("flatArray",FlatArray)
+
+// array destructuring
+let array =[1,2,3,4,5]
+const [first,second,third]=array
+console.log(first)
+console.log(second)
+console.log(third)
